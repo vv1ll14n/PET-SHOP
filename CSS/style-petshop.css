@@ -1,0 +1,55 @@
+/*reset nos espaços*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*topo*/
+header{
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(../CSS/img/fundo-topo.jpg);
+}
+h1 header{
+    margin: 0;
+    height: 84px;
+}
+nav{
+    margin: 0;
+    text-align: center;
+    padding: 15px 0;
+}
+nav li{
+    display: inline;
+    background-image: url('../CSS/img/patinha-preta.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 27px;
+    margin-right: 10px;
+}
+nav a{
+    text-decoration: none; 
+    color: black;
+}
+nav a:hover{
+    color:#6dd432
+}
+/*secao 1*/
+.fundo-verde{
+    background-color: #bdff9c;
+}
+.container{
+    width:900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+.container .col{
+    width: 430px;
+}
+.flex-container{
+    display:flex;
+    justify-content:space-between;
+    /*padding: 10px;*/
+}
