@@ -104,3 +104,8 @@ h2{
 #produto .flex-container, #contato .flex-container{
     margin-top: 43px;
 }
+/*feito em casa 2-11 rodapé*/
+footer p{
+    font-size: small;
+    text-align: center;
+}
