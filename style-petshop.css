@@ -10,7 +10,7 @@ body{
 header{
     text-align: center;
     padding: 10px 0;
-    background-image: url(../CSS/img/fundo-topo.jpg);
+    background-image: url(img/fundo-topo.jpg);
 }
 h1 header{
     margin: 0;
