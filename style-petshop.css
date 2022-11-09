@@ -23,7 +23,7 @@ nav{
 }
 nav li{
     display: inline;
-    background-image: url(/img/patinha-preta.png);
+    background-image: url(img/patinha-preta.png);
     background-repeat: no-repeat;
     background-position: center right;
     padding-right: 27px;
