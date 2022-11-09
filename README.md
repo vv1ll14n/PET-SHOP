@@ -2,5 +2,4 @@
  Atividade do professor wilians, onde utilizamos *CSS* e *HTML*, para desenvolver um site, fazendo o versionamento dele no GIT e GITHUB.
 ## LINK  
 [Projeto no figma](https://www.figma.com/file/tWJvMkRjCTHe46wuiWJMQG/PET-SHOP-mary-%26-gabi?node-id=0%3A1)
-### PAGES
-[Projeto hosteado no pages](https://vv1ll14n.github.io/PET-SHOP/)
+
