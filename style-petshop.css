@@ -109,3 +109,42 @@ footer p{
     font-size: small;
     text-align: center;
 }
+@media screen and (max-width:480px){
+    /*secao 1*/
+    body{
+        width: 480px;
+    }
+    .container{
+        width:480px;
+        margin: 0 auto;
+        padding: 56px 0;
+    }
+    .flex-container{
+        display:flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .col{
+        padding: 10px;
+    }
+    /*secao2*/
+    .produtos{
+        margin: 0 auto;
+    }
+    h3{
+        text-align: center;
+    }
+    .btn-pata{
+        margin:0px 0px 10px 50px;
+    }
+    /*rodapé*/
+    footer{
+        width: 480px;
+    }
+}
