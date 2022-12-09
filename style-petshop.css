@@ -5,6 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 /*topo*/
 header{
@@ -110,19 +111,26 @@ footer p{
     text-align: center;
 }
 @media screen and (max-width:480px){
-    /*secao 1*/
     body{
-        width: 480px;
+        font-size: 1em;
+        flex-wrap: wrap;
     }
+    /*secao 1*/
     .container{
-        width:480px;
+        width:90%;
         margin: 0 auto;
         padding: 56px 0;
     }
     .flex-container{
-        display:flex;
+        width: 90%;
+        margin: 0 auto;
         flex-direction: column;
         padding: 10px;
+    }
+    #imagem-sobre{
+        width: 250px;
+        height: 200px;
+        margin: 1px 100px;
     }
     h2{
         text-align: center;
@@ -130,21 +138,26 @@ footer p{
     p{
         text-align: center;
     }
+    h3{
+        text-align: center;
+    }
     .col{
         padding: 10px;
     }
     /*secao2*/
     .produtos{
-        margin: 0 auto;
-    }
-    h3{
-        text-align: center;
+        width: 100%;
+        margin:10px 0;
     }
     .btn-pata{
-        margin:0px 0px 10px 50px;
+        margin: 0px 125px;
     }
-    /*rodapé*/
-    footer{
-        width: 480px;
+    .enviar{
+        margin: 0 auto;
     }
+    .produtos figure{
+        width: 300px;
+        margin: 0 auto;
+    }
+ 
 }
